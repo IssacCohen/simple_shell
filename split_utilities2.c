@@ -139,7 +139,7 @@ void looping_shll(shll_comm *data_shell)
 	looping = 1;
 	while (looping == 1)
 	{
-		write(STDIN_FILENO, "€$ ", 4);
+		write(STDIN_FILENO, "^-^ ", 4);
 		inp = read_line(&int_eof);
 		if (int_eof != -1)
 		{
