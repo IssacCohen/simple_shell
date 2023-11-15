@@ -8,7 +8,7 @@
 void disp_help_general(void)
 {
 	/* Display introductory information about the shell and available commands */
-	char *hlp = "^-^ bash, version 1.0(1)-release\n";
+	char *hlp = "€$ bash, version 1.0(1)-release\n";
 
 	write(STDOUT_FILENO, hlp, _strlen(hlp));
 	hlp = "These commands are defined internally.Type 'help' to see the list";
